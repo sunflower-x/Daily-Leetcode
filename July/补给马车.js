@@ -10,7 +10,7 @@ var supplyWagon = function (supplies) {
       for (let i = 0; i < supplies.length - 1; i++) {
         temp.push(supplies[i] + supplies[i + 1]);
       }
-      // 请数组中最小值
+      // 数组中最小值
       let minVal = Math.min(...temp);
       // 拿到索引
       let i=temp.indexOf(minVal)
